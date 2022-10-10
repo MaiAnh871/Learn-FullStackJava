@@ -2,24 +2,11 @@ package org.studyeasy;
 
 import java.util.*;
 
-class Names implements Comparable<Names> {
+class Names {
     private String name;
 
     public Names(String names) {
         this.name = names;
-    }
-
-    @Override
-    public int compareTo(Names obj) {
-        if (name.length() == obj.name.length()) {
-            return 0;
-        }
-        else if (name.length() < obj.name.length()) {
-            return -1;
-        }
-        else {
-            return 1;
-        }
     }
 
     @Override
@@ -51,22 +38,29 @@ public class App {
         x.compareTo(y);
          */
 
-        List names = new LinkedList<>();
-        names.add(new Names("Chaand"));
-        names.add(new Names("Ed"));
-        names.add(new Names("John"));
-        names.add(new Names("Mia"));
+        List<Object> elements = new LinkedList<>();
+        elements.add(new Names("Chaand"));
+        elements.add(new Names("Ed"));
+        elements.add(new Names("John"));
+        elements.add(new Names("Mia"));
+        elements.add("Some String");
+        elements.add(1);
+        elements.add(2.0);
+        elements.add('0');
+
 
         App app = new App();
-        app.printList(names);
-        Collections.sort(names);
+        app.printList(elements);
+        /*
+        Collections.sort(elements);
         System.out.println("************");
-        app.printList(names);
+        app.printList(elements);
+         */
     }
 
-    private void printList(List<Names> list) {
+    void printList(List<Object> list) {
 
-        ListIterator<Names> iterator = list.listIterator();
+        ListIterator<Object> iterator = list.listIterator();
         while (iterator.hasNext()) {
             System.out.println("Element: " + iterator.next());
         }
