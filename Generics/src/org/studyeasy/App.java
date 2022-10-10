@@ -1,28 +1,32 @@
 package org.studyeasy;
 
-class Data {
-    private Object obj;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.ListIterator;
 
-    public Data(Object obj) {
-        this.obj = obj;
+class Data<T> {
+    private T myVariable;
+
+    public Data(T myVariable) {
+        this.myVariable = myVariable;
     }
 
-    public Object getObj() {
-        return obj;
+    public T getMyVariable() {
+        return myVariable;
     }
 
-    public void setObj(Object obj) {
-        this.obj = obj;
+    public void setMyVariable(T myVariable) {
+        this.myVariable = myVariable;
     }
 
     @Override
     public String toString() {
         return "Data{" +
-                "obj=" + obj +
+                "myVariable=" + myVariable +
                 '}';
     }
 }
-
+/*
 class GenericClass<T> {
     private T data;
 
@@ -45,9 +49,10 @@ class GenericClass<T> {
                 '}';
     }
 }
-
+*/
 public class App {
 
+    /*
     public static void main(String[] args) {
 
         Data data = new Data("Some String");
@@ -60,5 +65,24 @@ public class App {
         String data = genericData.getData();
         System.out.println(data);
         */
+    public static void main(String[] args) {
+        List<Data<String>> elements = new LinkedList<>();
+        elements.add(new Data<String>("Some text"));
+        elements.add(new Data<String>("One"));
+        elements.add(new Data<String>("Two"));
+        elements.add(new Data<String>("Some text"));
+        elements.add(new Data<String>("5.0f"));
+
+        App app = new App();
+        app.printList(elements);
+
     }
+    private void printList(List<Data<String>> list) {
+        ListIterator<Data<String>> iterator = list.listIterator();
+        while (iterator.hasNext()) {
+            System.out.println("ELement: " + iterator.next().getMyVariable());
+        }
+    }
+
+
 }
