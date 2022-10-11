@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Collections Framework/Autoboxing and unboxing/Autoboxing and unboxing.iml" filepath="$PROJECT_DIR$/Collections Framework/Autoboxing and unboxing/Autoboxing and unboxing.iml" />
-      <module fileurl="file://$PROJECT_DIR$/OOP Concept/Classes/Classes.iml" filepath="$PROJECT_DIR$/OOP Concept/Classes/Classes.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Collections Framework/Comparable Interface/Comparable Interface.iml" filepath="$PROJECT_DIR$/Collections Framework/Comparable Interface/Comparable Interface.iml" />
-      <module fileurl="file://$PROJECT_DIR$/OOP Concept/Composition/Composition.iml" filepath="$PROJECT_DIR$/OOP Concept/Composition/Composition.iml" />
-      <module fileurl="file://$PROJECT_DIR$/OOP Concept/Encapsulation/Encapsulation.iml" filepath="$PROJECT_DIR$/OOP Concept/Encapsulation/Encapsulation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Core Concept/Exception Handling/Exception Handling.iml" filepath="$PROJECT_DIR$/Core Concept/Exception Handling/Exception Handling.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Generics/Generics/Generics.iml" filepath="$PROJECT_DIR$/Generics/Generics/Generics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Generics/Generic Method/Generic Method.iml" filepath="$PROJECT_DIR$/Generics/Generic Method/Generic Method.iml" />
       <module fileurl="file://$PROJECT_DIR$/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld/HelloWorld.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Core Concept/Inner Classes/Inner Classes.iml" filepath="$PROJECT_DIR$/Core Concept/Inner Classes/Inner Classes.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Core Concept/Interface/Interface.iml" filepath="$PROJECT_DIR$/Core Concept/Interface/Interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Learn-FullStackJava.iml" filepath="$PROJECT_DIR$/.idea/Learn-FullStackJava.iml" />
-      <module fileurl="file://$PROJECT_DIR$/OOP Concept/Polymorphism/Polymorphism.iml" filepath="$PROJECT_DIR$/OOP Concept/Polymorphism/Polymorphism.iml" />
       <module fileurl="file://$PROJECT_DIR$/Generics/Type Parameters/Type Parameters.iml" filepath="$PROJECT_DIR$/Generics/Type Parameters/Type Parameters.iml" />
     </modules>
   </component>
