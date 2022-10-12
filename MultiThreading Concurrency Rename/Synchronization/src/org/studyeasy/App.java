@@ -15,7 +15,7 @@ public class App {
         });
 
         Thread thread2 = new Thread(new Runnable() {
-            @Override
+            @Override 
             public void run() {
                 for (int i = 1; i<=1000; i++) {
                     App.counter++;
