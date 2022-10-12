@@ -8,6 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld/HelloWorld.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Learn-FullStackJava.iml" filepath="$PROJECT_DIR$/.idea/Learn-FullStackJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/Generics/Type Parameters/Type Parameters.iml" filepath="$PROJECT_DIR$/Generics/Type Parameters/Type Parameters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Generics/Wildcards in Generics/Wildcards in Generics.iml" filepath="$PROJECT_DIR$/Generics/Wildcards in Generics/Wildcards in Generics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MultiThreading Concurrency Rename/untitled/untitled.iml" filepath="$PROJECT_DIR$/MultiThreading Concurrency Rename/untitled/untitled.iml" />
     </modules>
   </component>
 </project>
