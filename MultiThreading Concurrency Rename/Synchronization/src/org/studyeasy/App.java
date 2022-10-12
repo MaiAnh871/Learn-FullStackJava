@@ -15,7 +15,7 @@ public class App {
         });
 
         Thread thread2 = new Thread(new Runnable() {
-            @Override 
+            @Override
             public void run() {
                 for (int i = 1; i<=1000; i++) {
                     App.counter++;
@@ -27,6 +27,7 @@ public class App {
         thread1.start();
         thread2.start();
         Thread.sleep(2000);
+        System.out.println("The value of counter is " + App.counter);
         System.out.println("The value of counter is " + App.counter);
     }
 
