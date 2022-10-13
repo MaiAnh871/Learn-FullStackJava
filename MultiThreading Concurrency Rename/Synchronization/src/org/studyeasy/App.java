@@ -10,7 +10,7 @@ public class App {
                 for (int i = 1; i<=1000; i++) {
                     App.counter++;
                 }
-                System.out.println("The loops in thread1 is over.");
+                System.out.println("The loops in thread1 is over");
             }
         });
 
