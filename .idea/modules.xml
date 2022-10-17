@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Generics/Bounded Type Parameter/Bounded Type Parameter.iml" filepath="$PROJECT_DIR$/Generics/Bounded Type Parameter/Bounded Type Parameter.iml" />
       <module fileurl="file://$PROJECT_DIR$/Generics/Comparable Interface/Comparable Interface.iml" filepath="$PROJECT_DIR$/Generics/Comparable Interface/Comparable Interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MultiThreading Concurrency Rename/CountDownLatch/CountDownLatch.iml" filepath="$PROJECT_DIR$/MultiThreading Concurrency Rename/CountDownLatch/CountDownLatch.iml" />
       <module fileurl="file://$PROJECT_DIR$/Generics/Generic Method/Generic Method.iml" filepath="$PROJECT_DIR$/Generics/Generic Method/Generic Method.iml" />
       <module fileurl="file://$PROJECT_DIR$/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld/HelloWorld.iml" />
       <module fileurl="file://$PROJECT_DIR$/MultiThreading Concurrency Rename/Implement Runable Interface/Implement Runable Interface.iml" filepath="$PROJECT_DIR$/MultiThreading Concurrency Rename/Implement Runable Interface/Implement Runable Interface.iml" />
