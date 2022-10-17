@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/MultiThreading Concurrency Rename/Blocking Queue/Blocking Queue.iml" filepath="$PROJECT_DIR$/MultiThreading Concurrency Rename/Blocking Queue/Blocking Queue.iml" />
       <module fileurl="file://$PROJECT_DIR$/Generics/Bounded Type Parameter/Bounded Type Parameter.iml" filepath="$PROJECT_DIR$/Generics/Bounded Type Parameter/Bounded Type Parameter.iml" />
       <module fileurl="file://$PROJECT_DIR$/Generics/Comparable Interface/Comparable Interface.iml" filepath="$PROJECT_DIR$/Generics/Comparable Interface/Comparable Interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/MultiThreading Concurrency Rename/CountDownLatch/CountDownLatch.iml" filepath="$PROJECT_DIR$/MultiThreading Concurrency Rename/CountDownLatch/CountDownLatch.iml" />
