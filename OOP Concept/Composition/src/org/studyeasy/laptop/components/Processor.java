@@ -106,4 +106,19 @@ public class Processor {
     public void setMaxFrequency(String maxFrequency) {
         this.maxFrequency = maxFrequency;
     }
+
+    @Override
+    public String toString() {
+        return "Processor{" +
+                "brand='" + brand + '\'' +
+                ", series='" + series + '\'' +
+                ", generation=" + generation +
+                ", cores=" + cores +
+                ", threads=" + threads +
+                ", cacheMemory='" + cacheMemory + '\'' +
+                ", frequency='" + frequency + '\'' +
+                ", minFrequency='" + minFrequency + '\'' +
+                ", maxFrequency='" + maxFrequency + '\'' +
+                '}';
+    }
 }

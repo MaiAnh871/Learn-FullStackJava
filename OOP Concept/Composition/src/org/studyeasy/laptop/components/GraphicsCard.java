@@ -40,4 +40,13 @@ public class GraphicsCard {
     public void setMemory(String memory) {
         this.memory = memory;
     }
+
+    @Override
+    public String toString() {
+        return "GraphicsCard{" +
+                "brand='" + brand + '\'' +
+                ", series=" + series +
+                ", memory='" + memory + '\'' +
+                '}';
+    }
 }
